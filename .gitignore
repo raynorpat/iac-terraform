@@ -1,0 +1,12 @@
+# ignore Terraform temp and state files
+*/.terraform*
+*/terraform.tfstate
+*/terraform.tfstate.backup
+
+# ignore terraform temp and state files in sub-subdirectories
+*/*/.terraform*
+*/*/terraform.tfstate
+*/*/terraform.tfstate.backup
+
+# ignore terraform executable
+terraform.exe
